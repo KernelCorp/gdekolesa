@@ -1,6 +1,7 @@
 class Brand
   include Mongoid::Document
   include Mongoid::Paperclip
+  include Mongoid::Slug
 
   field :name
 
@@ -8,5 +9,7 @@ class Brand
 
   validates_attachment_content_type :logo, content_type: ['image/jpeg', 'image/gif', 'image/png']
 
-  has_many :autos
+  slug :name
+
+  has_many :cars
 end

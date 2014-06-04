@@ -1,6 +1,14 @@
 Gdekolesa::Application.routes.draw do
   devise_for :users, ActiveAdmin::Devise.config
-  ActiveAdmin.routes(self)
+
+  ActiveAdmin.routes self
+
+
+  resources :brands, only: [:show] do
+    resources :cars, only: [:show]
+  end
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

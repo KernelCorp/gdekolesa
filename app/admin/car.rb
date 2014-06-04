@@ -1,4 +1,4 @@
-ActiveAdmin.register Auto do
+ActiveAdmin.register Car do
   permit_params :name, :photo, :brand_id
 
   index do

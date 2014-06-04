@@ -32,6 +32,7 @@ gem 'devise'
 
 # models extensions
 gem 'mongoid-paperclip', require: 'mongoid_paperclip'
+gem 'mongoid_slug'
 
 # various
 gem 'rails-i18n', '~> 4.0.0'

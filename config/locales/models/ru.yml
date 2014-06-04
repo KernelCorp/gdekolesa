@@ -26,7 +26,7 @@ ru:
         few:   Бренда
         many:  Брендов
         other: Бренды
-      auto:
+      car:
         one:   Авто
         few:   Авто
         many:  Авто
@@ -36,7 +36,7 @@ ru:
       brand:
         name: Название
         logo: Лого
-      auto:
+      car:
         name: Модель
         brand: Бренд
 
