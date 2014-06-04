@@ -1,0 +1,40 @@
+ru:
+  simple_form:
+    yes: Да
+    no: Нет
+    required:
+      text: обязательное поле
+      mark: '*'
+    error_notification:
+      default_message: "Please review the problems below:"
+    labels:
+      user:
+        confirm_password: Подтвердите пароль
+        terms: Я согласен с правилами сервиса
+      subscribe:
+        responses: Уведомлять о новых откликах к заказу
+        messages: Уведомлять о новых личных сообщениях
+        events_in_town: Уведомлять о новых заказах в моем городе
+    placeholders:
+      order:
+        name: Имя
+        email: E-mail
+        phone: Телефон
+      demand:
+        name: Имя
+        email: E-mail
+        phone: Телефон
+
+    # Labels and hints examples
+    # labels:
+    #   defaults:
+    #     password: 'Password'
+    #   user:
+    #     new:
+    #       email: 'E-mail to sign in.'
+    #     edit:
+    #       email: 'E-mail.'
+    # hints:
+    #   defaults:
+    #     username: 'User name to sign in.'
+    #     password: 'No special characters, please.'
