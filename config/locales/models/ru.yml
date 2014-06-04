@@ -1,0 +1,44 @@
+ru:
+  attributes:
+    id: Номер
+    slug: Ссылка
+    created_at: Создан
+    updated_at: Изменен
+    email: Email
+    phone: Телефон
+    full_name: ФИО
+    photo: Фото
+    title: Заголовок
+    name: Имя
+    description: Описание
+    text: Текст
+    preview: Превью
+    background: Фон
+    password: Пароль
+    password_confirmation: Повторите пароль
+    status: Статус
+    login: Логин
+
+  mongoid: &mongoid
+    models:
+      brand:
+        one:   Бренд
+        few:   Бренда
+        many:  Брендов
+        other: Бренды
+      auto:
+        one:   Авто
+        few:   Авто
+        many:  Авто
+        other: Авто
+
+    attributes:
+      brand:
+        name: Название
+        logo: Лого
+      auto:
+        name: Модель
+        brand: Бренд
+
+
+  activerecord: *mongoid
