@@ -8,6 +8,7 @@ gem 'mongoid', '4.0.0.beta1'
 #front
 
 # hadlers
+gem 'stylus'
 gem 'sass-rails', '~> 4.0.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'slim-rails'
@@ -16,8 +17,10 @@ gem 'jbuilder', '~> 1.2'
 # assets
 gem 'jquery-rails'
 gem 'turbolinks'
+gem 'vonagam_items', github: 'vonagam/items'
 
 # various
+gem 'autoprefixer-rails'
 gem 'uglifier', '>= 1.3.0'
 
 
