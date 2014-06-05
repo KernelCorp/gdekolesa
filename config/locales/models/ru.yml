@@ -31,6 +31,11 @@ ru:
         few:   Авто
         many:  Авто
         other: Авто
+      news:
+        one:   Новость
+        few:   Новости
+        many:  Новостей
+        other: Новости
 
     attributes:
       brand:
@@ -39,6 +44,11 @@ ru:
       car:
         name: Модель
         brand: Бренд
+      news:
+        title: Заголовок
+        preview: Превью
+        text: Текст
+        image: Изображение
 
 
   activerecord: *mongoid

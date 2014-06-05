@@ -1,0 +1,17 @@
+p#notice = notice
+
+p
+  strong Title:
+  = @news.title
+p
+  strong Preview:
+  = @news.preview
+p
+  strong Text:
+  = @news.text
+
+p
+  = image_tag @news.image.url
+
+
+= link_to 'Back', news_index_path

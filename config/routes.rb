@@ -1,7 +1,7 @@
 Gdekolesa::Application.routes.draw do
   root 'pages#show'
 
-
+  resources :news, only: [:index, :show]
   resources :brands, only: [:show] do
     resources :cars, only: [:show]
   end
